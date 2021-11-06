@@ -1,0 +1,57 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+body {
+    background: linear-gradient(rgba(204, 107, 107, 0.5), rgba(117, 199, 40, 0.5)), url('/img/96.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+body::after{
+    content: "Luis Peralta";
+    color: rgba(255, 255, 255,0.4);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    right: 10px;
+}
+
+.container {
+    padding: 0px;
+    margin: auto;
+    width: 1000px;
+    height: 500px;
+    background-color: rgb(59, 59, 122);
+    border: 8px dashed rgb(81, 253, 118);
+    box-shadow: 3px 3px 15px black;
+}
+
+#player {
+    background-color: rgb(210, 212, 42);
+    border: 4px dashed rgb(110, 122, 43);
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    transition: all 0.3s;
+    box-shadow: 0px 0px 4px lightseagreen;
+}
+
+#player:hover{
+    transform: scale(0.5);
+}
+
+
+
+.pointer {
+    background-color: #444;
+    height: 30px;
+    margin-top: 30px;
+    border-bottom: 0px;
+    color: aliceblue;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px 0px;
+}
